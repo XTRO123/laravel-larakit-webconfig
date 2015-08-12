@@ -1,0 +1,27 @@
+{
+    "name": "larakit/laravel-larakit-webconfig",
+    "description": "Модуль гибкой настройки проекта через систему администрирования",
+	"type": "laravel-library",
+	"version": "1.0.0",
+    "authors": [
+        {
+            "name": "Alexey Berdnikov",
+            "email": "aberdnikov@gmail.com"
+        }
+    ],
+    "license": "MIT", 
+    "require": {
+        "larakit/laravel-larakit-spa": "*",
+        "laravel/framework": "*",
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Larakit\\": "src/"
+        },
+        "files": [
+			"src/init.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
